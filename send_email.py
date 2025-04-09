@@ -5,14 +5,14 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 def send_email(imageName):
     print("Sending Email")
-    username = 'speeddetector101@gmail.com'
-    password = 'LearnIOT06!'
+    username = ''
+    password = ''
 
-    rcptlist = ['srinivassriram06@gmail.com', 'ssriram.78@gmail.com', 'abhisar.muz@gmail.com', 'raja.muz@gmail.com', 'mehtac@gmail.com', 'bhaskar.ambekar@gmail.com']
+    rcptlist = []
     receivers = ','.join(rcptlist)
 
     msg = MIMEMultipart('mixed')
-    msg['Subject'] = 'From Chirayu\'s home - Speeding car in GVW'
+    msg['Subject'] = ''
     msg['From'] = username
     msg['To'] = receivers
 
